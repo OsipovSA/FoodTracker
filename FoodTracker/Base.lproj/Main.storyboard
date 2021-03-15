@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="du7-XG-EEG">
-                                <rect key="frame" x="0.0" y="64" width="414" height="428.5"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="489.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfe-DI-LnB">
                                         <rect key="frame" x="0.0" y="0.0" width="86" height="20.5"/>
@@ -47,6 +47,17 @@
                                             <outletCollection property="gestureRecognizers" destination="4sS-ru-gc9" appends="YES" id="8ZL-P0-Gj9"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ag5-M7-jCA" customClass="RatingControl" customModule="FoodTracker">
+                                        <rect key="frame" x="0.0" y="436.5" width="320" height="53"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="starSize">
+                                                <size key="value" width="44" height="44"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="starCount">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Frl-zw-ic1" secondAttribute="trailing" id="PNe-E4-2Lf"/>
@@ -59,6 +70,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="du7-XG-EEG" secondAttribute="trailing" id="9Vc-eu-H9v"/>
                             <constraint firstItem="du7-XG-EEG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="oQh-Oh-h1a"/>
                             <constraint firstItem="du7-XG-EEG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pai-IV-IOv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="du7-XG-EEG" secondAttribute="bottom" constant="308.5" id="qz2-az-BdE"/>
                         </constraints>
                     </view>
                     <connections>
