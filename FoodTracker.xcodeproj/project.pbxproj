@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51B97172600B26000F79B1E /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B97162600B26000F79B1E /* Meal.swift */; };
 		A5277D4025FF6944004A959B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5277D3F25FF6944004A959B /* AppDelegate.swift */; };
 		A5277D4225FF6944004A959B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5277D4125FF6944004A959B /* SceneDelegate.swift */; };
 		A5277D4425FF6944004A959B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5277D4325FF6944004A959B /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A51B97162600B26000F79B1E /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		A5277D3C25FF6944004A959B /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5277D3F25FF6944004A959B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5277D4125FF6944004A959B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				A5277D4125FF6944004A959B /* SceneDelegate.swift */,
 				A5277D4325FF6944004A959B /* ViewController.swift */,
 				A5277D7625FFA60C004A959B /* RatingControl.swift */,
+				A51B97162600B26000F79B1E /* Meal.swift */,
 				A5277D4525FF6944004A959B /* Main.storyboard */,
 				A5277D4825FF6945004A959B /* Assets.xcassets */,
 				A5277D4A25FF6945004A959B /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51B97172600B26000F79B1E /* Meal.swift in Sources */,
 				A5277D7725FFA60C004A959B /* RatingControl.swift in Sources */,
 				A5277D4425FF6944004A959B /* ViewController.swift in Sources */,
 				A5277D4025FF6944004A959B /* AppDelegate.swift in Sources */,
